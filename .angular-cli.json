@@ -21,7 +21,13 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/handsontable/dist/moment/moment.js",
+        "../node_modules/handsontable/dist/numbro/numbro.js",
+        "../node_modules/handsontable/dist/pikaday/pikaday.js",
+        "../node_modules/handsontable/dist/zeroclipboard/ZeroClipboard.js",
+        "../node_modules/chroma-js/chroma.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
